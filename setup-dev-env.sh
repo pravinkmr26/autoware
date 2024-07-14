@@ -102,9 +102,9 @@ else
 fi
 
 # Check verbose option
-if [ "$option_verbose" = "true" ]; then
+#if [ "$option_verbose" = "true" ]; then
     ansible_args+=("-vvv")
-fi
+#fi
 
 # Check installation of NVIDIA libraries
 if [ "$option_no_nvidia" = "true" ]; then
